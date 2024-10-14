@@ -17,7 +17,7 @@ function autoSlide() {
   slideNext();
 }
 
-const slideInterval = setInterval(autoSlide, 2000);
+const slideInterval = setInterval(autoSlide, 5000);
 
 // Stop automatic sliding on mouseenter
 slider.addEventListener("mouseenter", function () {
@@ -25,5 +25,5 @@ slider.addEventListener("mouseenter", function () {
 });
 
 slider.addEventListener("mouseleave", function () {
-  slideInterval = setInterval(autoSlide, 2000);
+  slideInterval = setInterval(autoSlide, 5000);
 });
